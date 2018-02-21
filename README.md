@@ -20,9 +20,11 @@ Mon application est capable de générer des fichiers d'entrée compatibles avec
 
 <h2>Fonctionnement</h2>
 
-•	L'utilisateur lance un VBScript qui va lui demander de sélectionner une messagerie à optimiser. Le VBScript ouvre le classeur *.xlsm correspondant puis appel la macro "Menu" qu'il contient.
-•	A son tour, la macro "Menu" appel l'interface graphique qui va proposer à l'utilisateur le mode de fonctionnement pour lequel il veux générer des fichiers d'entrée.
-•	Après que l'utilisateur ai sélectionner le mode de fonctionement qu'il compte utiliser à l'aide de l'interface graphique, cette dernière appel la main-macro qui va effectuer le traitement adéquat et exporter les fichiers.
+<ul>
+<li>L'utilisateur lance un VBScript qui va lui demander de sélectionner une messagerie à optimiser. Le VBScript ouvre le classeur *.xlsm correspondant puis appel la macro "Menu" qu'il contient.</li>
+<li>A son tour, la macro "Menu" appel l'interface graphique qui va proposer à l'utilisateur le mode de fonctionnement pour lequel il veux générer des fichiers d'entrée.</li>
+<li>Après que l'utilisateur ai sélectionner le mode de fonctionement qu'il compte utiliser à l'aide de l'interface graphique, cette dernière appel la main-macro qui va effectuer le traitement adéquat et exporter les fichiers.<:li>
+</ul>
 
 ---
 
@@ -38,7 +40,7 @@ Suite à des travaux autour d'un logiciel d'optimisation, j'ai constaté que ce 
 
 <h2>Objectif</h2>
 
-<h2>La lecture d'un synoptique sous forme de tableau étant peu chaleureuse, j'ai entrepris de déveloper une application (VisualBasic) capable de lire le tableau retourné par l'outil d'optimisation et de générer un schéma en conséquence.
+La lecture d'un synoptique sous forme de tableau étant peu chaleureuse, j'ai entrepris de déveloper une application (VisualBasic) capable de lire le tableau retourné par l'outil d'optimisation et de générer un schéma en conséquence.
 
 <h2>Performances</h2>
 
@@ -46,9 +48,11 @@ Mon application est capable de traiter tous les fichiers de résultat du synopti
 
 <h2>Fonctionnement</h2>
 
-•	L'utilisateur lance un VBScript qui va ouvrir un classeur *.xlsm prédéfini.
-•	A l'ouverture de ce dernier, une interface graphique sera appelée via une macro prédéfinie.
-•	L'Interface permet à l'utilisateur d'importer n'importe quelle fichier de résultat du synoptique.
-•	Une fois un fichier importé, la macro de traitement se déclenche automatiquement afin de schématiser le tableau.
-•	Lorsque l'opération est terminée, l'utilisateur peut demander l'export *.pdf de son schéma et choisir la localisation de l'enregistrement.
+<ul>
+<li>L'utilisateur lance un VBScript qui va ouvrir un classeur *.xlsm prédéfini.</li>
+<li>A l'ouverture de ce dernier, une interface graphique sera appelée via une macro prédéfinie.</li>
+<li>L'Interface permet à l'utilisateur d'importer n'importe quelle fichier de résultat du synoptique.</li>
+<li>Une fois un fichier importé, la macro de traitement se déclenche automatiquement afin de schématiser le tableau.</li>
+<li>Lorsque l'opération est terminée, l'utilisateur peut demander l'export *.pdf de son schéma et choisir la localisation de l'enregistrement.</li>
+</ul>
 
