@@ -23,7 +23,7 @@ Mon application est capable de générer des fichiers d'entrée compatibles avec
 <ul>
 <li>L'utilisateur lance un VBScript qui va lui demander de sélectionner une messagerie à optimiser. Le VBScript ouvre le classeur *.xlsm correspondant puis appel la macro "Menu" qu'il contient.</li>
 <li>A son tour, la macro "Menu" appel l'interface graphique qui va proposer à l'utilisateur le mode de fonctionnement pour lequel il veux générer des fichiers d'entrée.</li>
-<li>Après que l'utilisateur ai sélectionner le mode de fonctionement qu'il compte utiliser à l'aide de l'interface graphique, cette dernière appel la main-macro qui va effectuer le traitement adéquat et exporter les fichiers.<:li>
+<li>Après que l'utilisateur ai sélectionner le mode de fonctionement qu'il compte utiliser à l'aide de l'interface graphique, cette dernière appel la main-macro qui va effectuer le traitement adéquat et exporter les fichiers.</li>
 </ul>
 
 ---
