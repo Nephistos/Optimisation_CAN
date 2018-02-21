@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CANproject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CANproject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CANproject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-pg" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-pg -lgmon" />
+		</Linker>
+		<Unit filename="AddCalc.cpp" />
+		<Unit filename="AddCalc.h" />
+		<Unit filename="Architecture.cpp" />
+		<Unit filename="Architecture.h" />
+		<Unit filename="Calc.cpp" />
+		<Unit filename="Calc.h" />
+		<Unit filename="Connection.cpp" />
+		<Unit filename="Connection.h" />
+		<Unit filename="Constraint.cpp" />
+		<Unit filename="Constraint.h" />
+		<Unit filename="Criteria.cpp" />
+		<Unit filename="Criteria.h" />
+		<Unit filename="Element.cpp" />
+		<Unit filename="Element.h" />
+		<Unit filename="Frame.cpp" />
+		<Unit filename="Frame.h" />
+		<Unit filename="FrameFD.cpp" />
+		<Unit filename="FrameFD.h" />
+		<Unit filename="FrameHS.cpp" />
+		<Unit filename="FrameHS.h" />
+		<Unit filename="IOManagement.cpp" />
+		<Unit filename="IOManagement.h" />
+		<Unit filename="Parameter.cpp" />
+		<Unit filename="Parameter.h" />
+		<Unit filename="PathFrame.cpp" />
+		<Unit filename="PathFrame.h" />
+		<Unit filename="Solver.cpp" />
+		<Unit filename="Solver.h" />
+		<Unit filename="SubNet.cpp" />
+		<Unit filename="SubNet.h" />
+		<Unit filename="const_tool.h" />
+		<Unit filename="includes.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
