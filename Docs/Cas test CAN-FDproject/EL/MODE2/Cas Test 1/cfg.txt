@@ -1,0 +1,63 @@
+FICHIER DE CONFIGURATION
+------------------------
+
+
+MODE DE FONCTIONNEMENT - ligne 5 ici
+2										// RESOLUTION_MODE, 1 ou 2
+
+FICHIERS DE DONNEES - ligne 8 ici
+DataNew\Param.csv			// DF_PARAM_CALC_IO
+DataNew\Frame.csv			// DF_FRAME_CALC_IO
+DataNew\Topology.csv		// DF_SUBNET_INI
+DataNew\User Topology.csv		// DF_USER_TOPO
+DataNew\Mat Rout.csv
+
+PARAMETRES D'ARCHITECTURE - ligne 14 ici
+8										// nb_SN_max
+80										// Nombre_Calc_max
+22										// nb_max_calc_per_SN
+8										// nb_max_SN_per_calc
+8										// nb_max_SN_FD_per_calc
+500000									// max_load_supported, en bits/s
+0.5										// max_load_allowed/max_load_supported, proportion du débit maximal à utiliser
+0										// nb_bridge
+8										// bridge_nb_max_connector
+8										// bridge_nb_max_connector_FD
+
+PRIX - ligne 23 ici
+0										// price_SN
+1										// price_connector
+10										// price_bridge
+
+CONSTITUTION DES TRAMES - ligne 28 ici
+47										// size_encapsulation
+8										// nb_byte_max
+0										// no_par_astride_bytes, 1 pour interdire, 0 pour autoriser
+
+OPTIMISATION ROUTAGE - 33
+3										// nb_it_spreadPath
+2										// mode_opt_rout
+-1										// path_order_max, -1 pour autoriser autant qu'il y a de bus
+
+OPTIMISATION TOPOLOGIE - 37
+7										// size_tabu
+0										// nb_it_tabu
+1										// allow_stochastic
+20										// nb_choice_rem
+15										// nb_choice_add
+30										// nb_it_max_without_change
+
+OPTIMISATION MESSAGERIE - 45
+0.02									// Tmax
+0.98									// Tfactor
+0.002									// param_exp
+25000									// nb_it_SA
+
+TABOU MULTISTART - 51
+1500									// nb_it_gen
+5										// nb_multi_start
+0										// do_multistart, 0 pour non, 1 pour oui
+
+SORTIE - 56
+2										// nb_network_out
+1										// printToFile, 0 pour non, 1 pour oui

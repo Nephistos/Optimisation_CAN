@@ -1,0 +1,186 @@
+2017-06-20_16:33:48
+
+
+-------------------------------------------------------------
+RESOLUTION_MODE: 1
+
+DF_PARAM_CALC_IO: DataNew\Param.csv
+DF_FRAME_CALC_IO: DataNew\Frame.csv
+DF_SUBNET_INI: DataNew\Topology.csv
+DF_USER_TOPO: DataNew\User Topology.csv
+
+DF_NEW_CALC: 
+DF_NEW_FRAME: 
+
+nb_SN_max: 8
+nb_max_calc_per_SN: 22
+nb_max_SN_per_calc: 8
+nb_max_SN_FD_per_calc: 8
+nb_bridge: 0
+bridge_nb_max_connector: 8
+bridge_nb_max_connector_FD: 8
+
+price_SN: 0
+price_connector: 1
+price_bridge: 10
+
+size_encapsulation: 0
+nb_byte_max: 8
+no_par_astride_bytes: 0
+
+nb_it_spreadPath: 3
+path_order_max: 8
+
+size_tabu: 7
+nb_it_tabu: 100
+allow_stochastic: 1
+nb_choice_rem: 20
+nb_choice_add: 15
+nb_it_max_without_change: 30
+
+Tmax: 0.02
+Tfactor: 0.98
+param_exp: 0.002
+nb_it_SA: 25000
+
+nb_it_gen: 1500
+nb_multi_start: 5
+do_multistart: 0
+
+nb_network_out: 2
+printToFile: 1
+-------------------------------------------------------------
+
+[RESOLUTION_MODE 1]
+
+Number of iteration for pathframe optimization: 3
+
+Provided topology is valid.
+Maximum number of iterations: 100
+Length of the tabu list: 7
+it 0	66EUR	63.2311%  	163.095ms  	Remove: c49/sn6  archi valide	*New best solution*
+it 1	65EUR	63.3015%  	163.64ms  	Remove: c21/sn1  archi valide	*New best solution*
+it 2	64EUR	63.2791%  	165.135ms  	Remove: c24/sn1  archi valide	*New best solution*
+it 3	63EUR	63.5879%  	167.65ms  	Remove: c47/sn1  archi valide	*New best solution*
+it 4	62EUR	63.5879%  	168.547ms  	Remove: c4/sn2  archi valide	*New best solution*
+it 5	61EUR	73.4099%  	169.497ms  	Remove: c33/sn4  archi valide	*New best solution*
+it 6	60EUR	73.4099%  	169.813ms  	Remove: c7/sn0  archi valide	*New best solution*
+it 7	59EUR	74.0943%  	176.954ms  	Remove: c49/sn4  archi valide	*New best solution*
+it 8	58EUR	95.9774%  	213.729ms  	Remove: c49/sn1  archi valide	*New best solution*
+it 9	57EUR	97.8858%  	217.176ms  	Remove: c6/sn0  archi valide	*New best solution*
+it 10	57EUR	97.0794%  	212.568ms  	Remove: c10/sn1
+it 11	57EUR	97.0794%  	212.568ms  	Add: c10/sn0  archi valide	*New best solution*
+it 12	57EUR	96.689%  	215.752ms  	Remove: c30/sn1
+it 13	57EUR	96.689%  	213.571ms  	Add: c30/sn7  archi valide	*New best solution*
+it 14	57EUR	96.689%  	213.571ms  	Remove: c2/sn1
+it 15	1000EUR	
+it 16	1000EUR	
+it 17	1000EUR	
+it 18	1000EUR	
+it 19	57EUR	96.689%  	213.852ms  	Add: c2/sn7  archi valide
+it 20	57EUR	96.689%  	213.641ms  	Remove: c35/sn2
+it 21	1000EUR	
+it 22	1000EUR	
+it 23	1000EUR	
+it 24	1000EUR	
+it 25	1000EUR	
+it 26	1000EUR	
+it 27	57EUR	96.689%  	214.133ms  	Add: c35/sn3  archi valide
+it 28	57EUR	96.689%  	214.837ms  	Remove: c40/sn4
+it 29	1000EUR	
+it 30	1000EUR	
+it 31	57EUR	96.689%  	214.837ms  	Add: c40/sn2  archi valide
+it 32	57EUR	96.689%  	214.45ms  	Remove: c36/sn2
+it 33	1000EUR	
+it 34	57EUR	96.689%  	214.837ms  	Add: c36/sn3  archi valide
+it 35	57EUR	96.689%  	212.427ms  	Remove: c27/sn4
+it 36	57EUR	108.708%  	222.258ms  	Add: c27/sn1  archi valide
+it 37	58EUR	88.4699%  	208.294ms  	Add: c6/sn5  archi valide
+it 38	57EUR	97.9823%  	215.997ms  	Remove: c29/sn1  archi valide
+it 39	57EUR	97.9823%  	215.804ms  	Remove: c20/sn1
+it 40	1000EUR	
+it 41	1000EUR	
+it 42	1000EUR	
+it 43	1000EUR	
+it 44	1000EUR	
+it 45	1000EUR	
+it 46	1000EUR	
+it 47	1000EUR	
+it 48	57EUR	97.9823%  	215.997ms  	Add: c20/sn5  archi valide
+it 49	57EUR	97.9823%  	215.505ms  	Remove: c25/sn1
+it 50	1000EUR	
+it 51	1000EUR	
+it 52	1000EUR	
+it 53	1000EUR	
+it 54	1000EUR	
+it 55	1000EUR	
+it 56	1000EUR	
+it 57	1000EUR	
+it 58	1000EUR	
+Tabu aborted.
+
+---------- SubNet PT-CAN ----------
+Nb connected calc : 7
+Nb connected calc stored: 7
+BSG	SCU	HECM	ECM	HEVC	GW	BCM	
+Current load : 96.4206
+------------------------------
+
+---------- SubNet V1-CAN ----------
+Nb connected calc : 11
+Nb connected calc stored: 11
+ATCU_eDCT	ATCU	ECM	HEVC	USM	ESCL	ACU	HVAC	METER	DSU	HUD	
+Current load : 96.689
+------------------------------
+
+---------- SubNet V2-CAN ----------
+Nb connected calc : 12
+Nb connected calc stored: 12
+DSMU	PSCU	SONAR	ANC	AUDIOamp	MBL	VSP	MagicFolding	EVAP	BMS_12V	PBD	GW	
+Current load : 44.2873
+------------------------------
+
+---------- SubNet Chassis-CAN ----------
+Nb connected calc : 8
+Nb connected calc stored: 8
+VDC	EPKB	4WD	4WS	VADA	EBA	IDM	GW	
+Current load : 73.4099
+------------------------------
+
+---------- SubNet IC-CAN ----------
+Nb connected calc : 5
+Nb connected calc stored: 5
+EPS	ADB	ADAS	RADAR	FrCamera	
+Current load : 49.989
+------------------------------
+
+---------- SubNet IC2-CAN ----------
+Nb connected calc : 5
+Nb connected calc stored: 5
+BSWR	BSWL	AVM	ADAS	GW	
+Current load : 74.0943
+------------------------------
+
+---------- SubNet DTOOL-CAN ----------
+Nb connected calc : 0
+Nb connected calc stored: 0
+
+Current load : 0
+------------------------------
+
+---------- SubNet EXT-CAN ----------
+Nb connected calc : 9
+Nb connected calc stored: 9
+IVI	TCU	CPLC	DOP_TCU	DOP_SECU	DOP_RES	SceneRecorder	GW	HFM	
+Current load : 55.2113
+------------------------------
+
+======================================================================
+**********************************************************************
+======================================================================
+
+
+Subscript "_2.csv"'s criteria value: 57E / 97.0794bits/s (97.0794%).
+Subscript "_1.csv"'s criteria value: 57E / 96.689bits/s (96.689%).
+
+2017-06-20_16:50:20

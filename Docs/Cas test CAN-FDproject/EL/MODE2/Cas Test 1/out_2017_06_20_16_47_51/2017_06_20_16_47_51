@@ -1,0 +1,61 @@
+2017-06-20_16:47:51
+
+
+-------------------------------------------------------------
+RESOLUTION_MODE: 2
+
+DF_PARAM_CALC_IO: DataNew\Param.csv
+DF_FRAME_CALC_IO: DataNew\Frame.csv
+DF_SUBNET_INI: DataNew\Topology.csv
+DF_USER_TOPO: DataNew\User Topology.csv
+
+DF_NEW_CALC: 
+DF_NEW_FRAME: 
+
+nb_SN_max: 8
+nb_max_calc_per_SN: 22
+nb_max_SN_per_calc: 8
+nb_max_SN_FD_per_calc: 8
+nb_bridge: 0
+bridge_nb_max_connector: 8
+bridge_nb_max_connector_FD: 8
+
+price_SN: 0
+price_connector: 1
+price_bridge: 10
+
+size_encapsulation: 47
+nb_byte_max: 8
+no_par_astride_bytes: 0
+
+nb_it_spreadPath: 3
+path_order_max: 8
+
+size_tabu: 7
+nb_it_tabu: 0
+allow_stochastic: 1
+nb_choice_rem: 20
+nb_choice_add: 15
+nb_it_max_without_change: 30
+
+Tmax: 0.02
+Tfactor: 0.98
+param_exp: 0.002
+nb_it_SA: 25000
+
+nb_it_gen: 1500
+nb_multi_start: 5
+do_multistart: 0
+
+nb_network_out: 2
+printToFile: 1
+-------------------------------------------------------------
+
+[RESOLUTION_MODE 2]
+
+Number of iteration for pathframe optimization: 3
+
+Initial number of fragments transmission : 2939
+Initial number of calculators: 51
+Actual number of parameters to transmit: 2816
+Initial number of frames: 573

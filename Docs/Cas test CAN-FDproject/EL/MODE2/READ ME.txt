@@ -1,0 +1,5 @@
+Le MODE2 ne produit pas un résultat conforme à la notice, malgré que les fichiers d'entrées 
+et de configuration soit correctement paramétrés.
+
+L'outil cesse de fonctionner et fournit tout de même une liste des paramètres ainsi que la façon dont ils
+ont été mis en trame et une liste de ces trames ainsi que leurs routages.
