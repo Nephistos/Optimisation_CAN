@@ -1,0 +1,59 @@
+FICHIER DE CONFIGURATION
+------------------------
+
+
+MODE DE FONCTIONNEMENT - ligne 5 ici
+1										// RESOLUTION_MODE, 1, 2 ou 3
+
+FICHIERS DE DONNEES - ligne 8 ici
+Data_passe/Data/param_calc_io_mod_4.csv		// DF_PARAM_CALC_IO
+NouveauTest/frame2.csv	// DF_FRAME_CALC_IO
+NouveauTest/topology1.csv		// DF_SUBNET_INI
+NouveauTest/user_topology.csv	// DF_USER_TOPO
+NouveauTest/mat_rout.csv
+
+PARAMETRES D'ARCHITECTURE - ligne 14 ici
+6										// nb_SN_max
+20										// nb_max_calc_per_SN
+7										// nb_max_SN_per_calc
+500000									// max_load_supported, en bits/s
+0.46										// max_load_allowed/max_load_supported, proportion du débit maximal à utiliser
+0										// nb_bridge
+4										// bridge_nb_max_connector
+
+PRIX - ligne 23 ici
+0										// price_SN
+1										// price_connector
+10										// price_bridge
+
+CONSTITUTION DES TRAMES - ligne 28 ici
+47										// size_encapsulation
+8										// nb_byte_max
+1										// no_par_astride_bytes, 1 pour interdire, 0 pour autoriser
+
+OPTIMISATION ROUTAGE - 33
+3										// nb_it_spreadPath
+-1										// path_order_max, -1 pour autoriser autant qu'il y a de bus
+
+OPTIMISATION TOPOLOGIE - 37
+7										// size_tabu
+10										// nb_it_tabu
+1										// allow_stochastic
+20										// nb_choice_rem
+15										// nb_choice_add
+200										// nb_it_max_without_change
+
+OPTIMISATION MESSAGERIE - 45
+0.02									// Tmax
+0.98									// Tfactor
+0.002									// param_exp
+25000									// nb_it_SA
+
+TABOU MULTISTART - 51
+1500									// nb_it_gen
+5										// nb_multi_start
+0										// do_multistart, 0 pour non, 1 pour oui
+
+SORTIE - 56
+2										// nb_network_out
+0										// printToFile, 0 pour non, 1 pour oui
