@@ -1,0 +1,154 @@
+2017-06-20_16:23:04
+
+
+-------------------------------------------------------------
+RESOLUTION_MODE: 3
+
+DF_PARAM_CALC_IO: DataNew\Param.csv
+DF_FRAME_CALC_IO: DataNew\Frame.csv
+DF_SUBNET_INI: DataNew\Topology.csv
+DF_USER_TOPO: DataNew\User Topology.csv
+
+DF_NEW_CALC: 
+DF_NEW_FRAME: 
+
+nb_SN_max: 8
+nb_max_calc_per_SN: 22
+nb_max_SN_per_calc: 8
+nb_max_SN_FD_per_calc: 8
+nb_bridge: 0
+bridge_nb_max_connector: 8
+bridge_nb_max_connector_FD: 8
+
+price_SN: 0
+price_connector: 1
+price_bridge: 10
+
+size_encapsulation: 0
+nb_byte_max: 8
+no_par_astride_bytes: 0
+
+nb_it_spreadPath: 3
+path_order_max: 8
+
+size_tabu: 7
+nb_it_tabu: 100
+allow_stochastic: 1
+nb_choice_rem: 20
+nb_choice_add: 15
+nb_it_max_without_change: 30
+
+Tmax: 0.02
+Tfactor: 0.98
+param_exp: 0.002
+nb_it_SA: 25000
+
+nb_it_gen: 1500
+nb_multi_start: 5
+do_multistart: 0
+
+nb_network_out: 2
+printToFile: 1
+-------------------------------------------------------------
+
+[RESOLUTION_MODE 3]
+
+Provided topology is valid.
+Maximum number of iterations: 100
+Length of the tabu list: 7
+it 0	1000EUR	
+it 1	1000EUR	
+it 2	1000EUR	
+it 3	1000EUR	
+it 4	1000EUR	
+it 5	1000EUR	
+it 6	1000EUR	
+it 7	1000EUR	
+it 8	1000EUR	
+it 9	1000EUR	
+it 10	1000EUR	
+it 11	1000EUR	
+it 12	1000EUR	
+it 13	1000EUR	
+it 14	1000EUR	
+it 15	1000EUR	
+it 16	1000EUR	
+it 17	1000EUR	
+it 18	1000EUR	
+it 19	1000EUR	
+it 20	1000EUR	
+it 21	1000EUR	
+it 22	1000EUR	
+it 23	1000EUR	
+it 24	1000EUR	
+it 25	1000EUR	
+it 26	1000EUR	
+it 27	1000EUR	
+it 28	1000EUR	
+it 29	1000EUR	
+Tabu aborted.
+
+---------- SubNet PT-CAN ----------
+Nb connected calc : 8
+Nb connected calc stored: 8
+ATCU_eDCT	BSG	SCU	HECM	ATCU	ECM	HEVC	GW	
+Current load : 63.1479
+------------------------------
+
+---------- SubNet V1-CAN ----------
+Nb connected calc : 17
+Nb connected calc stored: 17
+ATCU_eDCT	ATCU	ECM	HEVC	USM	ESCL	HFM	BCM	ACU	HVAC	VDC	EPS	METER	DSU	HUD	EBA	GW	
+Current load : 63.2311
+------------------------------
+
+---------- SubNet V2-CAN ----------
+Nb connected calc : 13
+Nb connected calc stored: 13
+DSMU	PSCU	SONAR	ANC	AUDIOamp	MBL	ADB	VSP	MagicFolding	EVAP	BMS_12V	PBD	GW	
+Current load : 44.9709
+------------------------------
+
+---------- SubNet Chassis-CAN ----------
+Nb connected calc : 8
+Nb connected calc stored: 8
+VDC	EPKB	4WD	4WS	VADA	EBA	IDM	GW	
+Current load : 55.8638
+------------------------------
+
+---------- SubNet IC-CAN ----------
+Nb connected calc : 7
+Nb connected calc stored: 7
+EPS	ADB	ADAS	IDM	RADAR	FrCamera	GW	
+Current load : 55.6106
+------------------------------
+
+---------- SubNet IC2-CAN ----------
+Nb connected calc : 5
+Nb connected calc stored: 5
+BSWR	BSWL	AVM	ADAS	GW	
+Current load : 55.6282
+------------------------------
+
+---------- SubNet DTOOL-CAN ----------
+Nb connected calc : 1
+Nb connected calc stored: 1
+GW	
+Current load : 0
+------------------------------
+
+---------- SubNet EXT-CAN ----------
+Nb connected calc : 8
+Nb connected calc stored: 8
+IVI	TCU	CPLC	DOP_TCU	DOP_SECU	DOP_RES	SceneRecorder	GW	
+Current load : 54.4631
+------------------------------
+
+======================================================================
+**********************************************************************
+======================================================================
+
+
+Subscript "_1.csv"'s criteria value: 67E / 63.2311bits/s (0.0126462%).
+
+2017-06-20_16:24:46
